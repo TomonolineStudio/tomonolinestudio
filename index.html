@@ -5,99 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomonoline Studio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #222;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        .intro {
-            text-align: center;
-            padding: 20px;
-            max-width: 700px;
-            margin: auto;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 30px;
-            padding: 40px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .item {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
-            padding-bottom: 20px;
-        }
-        .item img {
-            width: 100%;
-            height: auto;
-        }
-        .item h3 {
-            margin: 15px 0 5px;
-            font-size: 20px;
-        }
-        .item p {
-            font-size: 16px;
-            color: #555;
-            margin: 5px 0;
-        }
-        .item .button {
-            display: inline-block;
-            margin-top: 10px;
-            background-color: #0070ba;
-            color: white;
-            padding: 10px 18px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        footer {
-            background-color: #eee;
-            color: #555;
-            text-align: center;
-            padding: 20px 10px;
-            font-size: 14px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Tomonoline Studio</h1>
+        <p>Exclusive t-shirt and logo designs inspired by nature, outdoor life, and adventure.</p>
+        <p><em>All designs are ready to use and available for instant purchase via PayPal.</em></p>
+    </header>
 
-<header>
-    Tomonoline Studio
-</header>
+    <section class="gallery">
+        <h2>My Designs</h2>
+        <div class="grid">
+            <!-- Ganti src dengan gambar kamu -->
+            <img src="images/design1.jpg" alt="Design 1">
+            <img src="images/design2.jpg" alt="Design 2">
+            <img src="images/design3.jpg" alt="Design 3">
+        </div>
+    </section>
 
-<section class="intro">
-    <h2>Exclusive Design Collection</h2>
-    <p>High-quality, limited-edition vector designs for outdoor, hunting, and adventure lifestyle. Only a few buyers per design – grab yours today!</p>
-</section>
+    <section class="buy">
+        <h2>Buy Now</h2>
+        <a class="paypal-button" href="https://paypal.me/TomonolineStudio" target="_blank">Pay via PayPal</a>
+    </section>
 
-<section class="grid">
-    <div class="item">
-        <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="Desert Ram Design">
-        <h3>Desert Ram Pattern</h3>
-        <p>Only 5 Available</p>
-        <p>$35.00</p>
-        <a class="button" href="https://paypal.me/TomonolineStudio/35" target="_blank">Buy Now</a>
-    </div>
-</section>
-
-<footer>
-    © 2025 Tomonoline Studio · All rights reserved
-</footer>
-
+    <footer>
+        <p>© 2025 Tomonoline Studio</p>
+        <p><a href="https://instagram.com/tomonolinestudio" target="_blank">@tomonolinestudio</a></p>
+    </footer>
 </body>
 </html>
